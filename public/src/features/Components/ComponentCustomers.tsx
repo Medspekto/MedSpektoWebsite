@@ -2,7 +2,7 @@ import img1 from '../assets/img/Customers/1.svg';
 import img2 from '../assets/img/Customers/2.svg';
 import img3 from '../assets/img/Customers/3.svg';
 import img4 from '../assets/img/Customers/4.svg'
-const Customers=()=>{
+const ComponentCustomers=()=>{
     return(
         <>
          <section className="py-8 bg-white">
@@ -69,4 +69,4 @@ const Customers=()=>{
         </>
     )
 }
-export default Customers;
+export default ComponentCustomers;

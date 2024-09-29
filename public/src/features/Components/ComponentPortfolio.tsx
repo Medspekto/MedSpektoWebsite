@@ -1,4 +1,4 @@
-const Portfolio = () => {
+const ComponentPortfolio = () => {
     return (
         <>
             <section className="block_2 bg-white">
@@ -32,4 +32,4 @@ const Portfolio = () => {
     );
 }
 
-export default Portfolio;
+export default ComponentPortfolio;

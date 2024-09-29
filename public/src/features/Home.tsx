@@ -1,12 +1,12 @@
-import Customers from "./Customers";
+import ComponentCustomers from "./Components/ComponentCustomers";
 import Navbar from "./Navbar/navbar";
-import Services from "./Services";
-import Portfolio from "./Portfolio";
-import Teams from "./Teams";
-import Testimonials from "./Testimonials";
+import ComponentServices from "./Components/ComponentServices";
+import ComponentPortfolio from "./Components/ComponentPortfolio";
+import ComponentTeams from "./Components/ComponentTeams";
+import ComponentTestimonials from "./Components/ComponentTestimonials";
 import Footer from "./Footer/footer";
-import AdvtCard from "./advtCard";
-import About from "./About";
+import ComponentAdvtCard from "./Components/ComponentadvtCard";
+import Services from "./Services";
 
 const Home = () => {
     return (
@@ -34,14 +34,14 @@ const Home = () => {
                     </aside>
                 </div>
             </div>
-            <Services/>
-            <Portfolio/>
-            <Customers/>
-            <Testimonials/>
-            <Teams/>
-            <AdvtCard/>
+            <ComponentServices/>
+            <ComponentPortfolio/>
+            <ComponentCustomers/>
+            <ComponentTestimonials/>
+            <ComponentTeams/>
+            <ComponentAdvtCard/>
             <Footer/>
-            <About/>
+            <Services/>
         </>
     );
 };
