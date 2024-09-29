@@ -1,5 +1,8 @@
+import { useLocation } from 'react-router-dom';
 import logo from '../../assets/img/logo1.png'
 const Navbar = () => {
+    const location = useLocation();
+  
     return (
         <>
             <nav className="navbar navbar-expand-lg py-4 main_nav">
@@ -21,13 +24,13 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarScroll" style={{ height: '100px' }}>
                         <ul className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <a className="nav-link active" style={{color:location.pathname === '/' ? '#ff5733':'#000', fontWeight:location.pathname === '/' ? 'bold':'normal'}} aria-current="page" href="/" >Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="about">About</a>
+                                <a className="nav-link" href="about" style={{color:location.pathname === '/about' ? '#ff5733':'#000', fontWeight:location.pathname === '/about' ? 'bold':'normal'}}>About</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="services">Services</a>
+                                <a className="nav-link" href="services" style={{color:location.pathname === '/services' ? '#ff5733':'#000', fontWeight:location.pathname === '/services' ? 'bold':'normal'}}>Services</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" aria-disabled="true" >Contact</a>
