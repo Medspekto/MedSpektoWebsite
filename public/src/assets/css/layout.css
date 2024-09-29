@@ -129,26 +129,61 @@ h4 {
   font-size: 1.2rem;
   color: #666;
 }
-/* @media(min-width:768px){
-  .header_section{
-    min-width: 100vh;
-  }
-
-  .center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
-  }
-  centerTxt{
-  width: 46%;
-  display: inline-flex;
-  justify-content: center;
+/* Header Section */
+.header_section {
+  background-color: #f4f6ff; /* Light background color */
 }
-.row-gap-lg {
-  row-gap:50px;
-  }
-} */
+
+.header_content h1 {
+  font-size: 48px;
+}
+
+.header_content p {
+  font-size: 18px;
+}
+
+/* Cards Section */
+.card-section {
+  padding: 50px 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2d2d2d;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+.card ul li::before {
+  content: "•";
+  color: #6060e0;
+  margin-right: 5px;
+}
+
 .btn_theme {
     padding: 17px 35px;
     border-radius: 6px;
@@ -202,3 +237,77 @@ section {
     padding-top:100px;
 	 padding-bottom:40px;
 }
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* 6-D Process Section */
+.process-section {
+  padding: 60px 0;
+  background-color: #f0f3fc; /* Light background color similar to the image */
+}
+
+.process-section h2 {
+  font-size: 36px;
+  color: #2d2d2d;
+  margin-bottom: 40px;
+}
+
+.process-step {
+  position: relative;
+  padding: 30px 20px;
+  background-color: white;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.process-step:hover {
+  transform: translateY(-5px); /* Slight hover effect */
+}
+
+.process-step h3 {
+  font-size: 24px;
+  color: #2d2d2d;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.process-step::before {
+  content: attr(data-number);
+  position: absolute;
+  top: 0;
+  left: -20px;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.05); /* Faded number behind title */
+  font-weight: bold;
+  z-index: -1;
+}
+
+.process-step p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .process-step::before {
+    font-size: 60px;
+    top: -10px;
+    left: -15px;
+  }
+
+  .process-step h3 {
+    font-size: 20px;
+  }
+
+  .process-step p {
+    font-size: 14px;
+  }
+}
+
+
+

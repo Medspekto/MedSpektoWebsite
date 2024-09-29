@@ -6,7 +6,6 @@ import ComponentTeams from "./Components/ComponentTeams";
 import ComponentTestimonials from "./Components/ComponentTestimonials";
 import Footer from "./Footer/footer";
 import ComponentAdvtCard from "./Components/ComponentadvtCard";
-import Services from "./Services";
 
 const Home = () => {
     return (
@@ -41,7 +40,6 @@ const Home = () => {
             <ComponentTeams/>
             <ComponentAdvtCard/>
             <Footer/>
-            <Services/>
         </>
     );
 };
