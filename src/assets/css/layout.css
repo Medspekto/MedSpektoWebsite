@@ -82,6 +82,8 @@ h4 {
     display: inline-flex;
 	line-height:12px;
 	font-weight:400;
+	transition: background-color 0.3s ease, color 0.3s ease; /* For smooth hover transitions */
+
 }
 
 .btn_theme:hover {
