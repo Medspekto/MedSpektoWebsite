@@ -5,7 +5,7 @@ import Portfolio from "./Portfolio";
 import Teams from "./Teams";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer/footer";
-import AdvtCard from "./advt";
+import AdvtCard from "./advtCard";
 
 const Home = () => {
     return (
