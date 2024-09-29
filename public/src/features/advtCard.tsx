@@ -14,7 +14,7 @@ const AdvtCard=()=>{
             </div>
           </div>
           <div>
-            <div className="btn_theme">button</div>
+          <span className="btn_theme mt-2 mb-5 d-inline-flex w-auto">Get Started</span>
           </div>
         </article>
         </div>
