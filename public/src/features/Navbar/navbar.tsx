@@ -21,10 +21,10 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarScroll" style={{ height: '100px' }}>
                         <ul className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
+                                <a className="nav-link" href="about">Services</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href='#'>Portfolio</a>

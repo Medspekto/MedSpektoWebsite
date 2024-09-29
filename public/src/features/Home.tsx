@@ -6,6 +6,7 @@ import Teams from "./Teams";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer/footer";
 import AdvtCard from "./advtCard";
+import About from "./About";
 
 const Home = () => {
     return (
@@ -40,6 +41,7 @@ const Home = () => {
             <Teams/>
             <AdvtCard/>
             <Footer/>
+            <About/>
         </>
     );
 };

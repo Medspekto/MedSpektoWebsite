@@ -24,7 +24,7 @@ const Portfolio = () => {
                         </figure>
                     </div>
                     <article className="text-center">
-                        <div className="btn_theme">button</div>
+                        <div className="btn_theme">EXPLORE MORE</div>
                     </article>
                 </div>
             </section>

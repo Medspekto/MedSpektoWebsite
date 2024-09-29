@@ -34,7 +34,7 @@ const Services = () => {
             <section className="block_1">
                 <div className="container">
                     <article className="text-center">
-                        <div className="display-2">Services</div>
+                        <div className="display-2">How can we help you?</div>
                         {/* <p className="centerTxt">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.
                         </p> */}
