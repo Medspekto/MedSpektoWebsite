@@ -1,3 +1,7 @@
+import img1 from '../assets/img/Customers/1.svg';
+import img2 from '../assets/img/Customers/2.svg';
+import img3 from '../assets/img/Customers/3.svg';
+import img4 from '../assets/img/Customers/4.svg'
 const Customers=()=>{
     return(
         <>
@@ -11,50 +15,46 @@ const Customers=()=>{
     </article>
    <div className="container">
                     <div className="row">
-                      <div className="col-md-6 col-lg-3 border-top-md border-bottom border-end-md ">
+                      <div className="col-md-6 col-lg-3  ">
                         <div className="py-md-5 py-5 text-center">
                           <div className="mb-3">
                             <i className="fe fe-award fs-2 text-info"> </i>
                           </div>
                           <div className="lh-1">
-                            <h2 className="mb-1">316,000+</h2>
-                            <span>Qualified Instructor</span>
+                            <h2 className="mb-1"><img src={img1}/></h2>
                           </div>
                         </div>
 
                       </div>
-                      <div className="col-md-6 col-lg-3 border-top-md border-bottom border-end-lg ">
+                      <div className="col-md-6 col-lg-3  ">
                         <div className="py-md-5 py-5 text-center">
                           <div className="mb-3">
                             <i className="fe fe-users fs-2 text-warning"> </i>
                           </div>
                           <div className="lh-1">
-                            <h2 className="mb-1">1.8 Billion+</h2>
-                            <span>Course enrolments</span>
+                            <h2 className="mb-1"><img src={img2}/></h2>
                           </div>
                         </div>
 
                       </div>
-                      <div className="col-md-6 col-lg-3 border-top-lg border-bottom border-end-md ">
+                      <div className="col-md-6 col-lg-3  ">
                         <div className="py-md-5 py-5 text-center">
                           <div className="mb-3">
                             <i className="fe fe-tv fs-2 text-primary"> </i>
                           </div>
                           <div className="lh-1">
-                            <h2 className="mb-1">41,000+</h2>
-                            <span>Courses in 42 languages</span>
+                            <h2 className="mb-1"><img src={img3}/></h2>
                           </div>
                         </div>
 
                       </div>
-                      <div className="col-md-6 col-lg-3 border-top-lg border-bottom ">
+                      <div className="col-md-6 col-lg-3  ">
                         <div className="py-md-5 py-5 text-center">
                           <div className="mb-3">
                             <i className="fe fe-film fs-2 text-success"> </i>
                           </div>
                           <div className="lh-1">
-                            <h2 className="mb-1">179,000+</h2>
-                            <span>Online Videos</span>
+                            <h2 className="mb-1"><img src={img4}/></h2>
                           </div>
                         </div>
 
