@@ -30,10 +30,7 @@ const Navbar = () => {
                                 <a className="nav-link" href="services">Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href='#'>Portfolio</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href='#'>Meet us</a>
+                                <a className="nav-link disabled" aria-disabled="true" >Contact</a>
                             </li>
                            
                             <li className='nav-item'>

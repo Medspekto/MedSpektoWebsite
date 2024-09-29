@@ -1,3 +1,5 @@
+import ComponentAdvtCard from "./Components/ComponentadvtCard";
+import Footer from "./Footer/footer";
 import Navbar from "./Navbar/navbar";
 
 const About = () => {
@@ -8,12 +10,10 @@ const About = () => {
           <Navbar />
           <div className="row">
             <div className="col-md-12 text-center header_content">
-              <h1 className="display-4">Services</h1>
-              <p className="lead">We provide a wide range of Services</p>
+              <h1 className="display-4">About</h1>
+              <p className="lead">Welcome to MedSpekto</p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse et justo. Praesent mattis commodo augue. Aliquam
-                ornare hendrerit augue.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.
               </p>
             </div>
           </div>
@@ -100,6 +100,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      <ComponentAdvtCard/>
+      <Footer/>
       
     </>
   );

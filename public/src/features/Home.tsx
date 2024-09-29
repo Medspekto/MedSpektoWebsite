@@ -6,8 +6,11 @@ import ComponentTeams from "./Components/ComponentTeams";
 import ComponentTestimonials from "./Components/ComponentTestimonials";
 import Footer from "./Footer/footer";
 import ComponentAdvtCard from "./Components/ComponentadvtCard";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+    const location = useLocation();
+    console.log(location)
     return (
         <>
             <div className="hero_section">
