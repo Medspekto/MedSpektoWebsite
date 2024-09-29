@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site":"medspekto",
+    "site":"medspekto-us",
     "public": "public/dist",
     "ignore": [
       "firebase.json",
