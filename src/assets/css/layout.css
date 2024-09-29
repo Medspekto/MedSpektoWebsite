@@ -83,6 +83,31 @@ h4 {
 	line-height:12px;
 	font-weight:400;
 }
+
+.btn_theme:hover {
+    background-color: #fff;
+    color: var(--btn_color)!important;
+}
+.btn_Contact {
+    padding: 17px 35px;
+    border-radius: 25px;
+    color: #fff!important;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: var(--btn_color);
+    text-transform: uppercase;
+    display: inline-flex;
+    line-height: 12px;
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease; /* For smooth hover transitions */
+}
+
+
+.btn_Contact:hover {
+    background-color: #fff;
+    color: var(--btn_color)!important;
+}
+
 .main_nav a {
     color: #fff!important;
     padding-left: 14px!important;

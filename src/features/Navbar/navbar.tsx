@@ -24,19 +24,21 @@ const Navbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                                <a className="nav-link" href="#">Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Link</a>
+                                <a className="nav-link active" aria-current="page" href='#'>Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Link</a>
+                                <a className="nav-link active" aria-current="page" href='#'>Meet us</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Link</a>
+                           
+                            <li className='nav-item'>
+                                <a className="btn_Contact d-inline-flex w-auto nav-link active" aria-current="page" href='#'>Request Quote</a>
                             </li>
                         </ul>
                     </div>
+                    
                 </div>
             </nav>
         </>

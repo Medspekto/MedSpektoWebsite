@@ -1,11 +1,11 @@
 import Customers from "./Customers";
 import Navbar from "./Navbar/navbar";
-import Cards from "./Cards";
+import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Teams from "./Teams";
-import Advt from "./advt";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer/footer";
+import Advt from "./advt";
 
 const Home = () => {
     return (
@@ -33,7 +33,7 @@ const Home = () => {
                     </aside>
                 </div>
             </div>
-            <Cards/>
+            <Services/>
             <Portfolio/>
             <Customers/>
             <Testimonials/>

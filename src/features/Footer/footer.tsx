@@ -1,3 +1,4 @@
+import logo from '../../assets/img/logo1.png'
 const Footer=()=>{
     return(
         <>
@@ -7,7 +8,7 @@ const Footer=()=>{
                     <div className="col-lg-4 col-12">
                         <div className="d-flex flex-column gap-4">
                             <div>
-                                <img src="../assets/images/mentor/geeks-mentor.svg" alt="Geeks" className="logo-reverse" />
+                                <img src={logo} alt="MedSpekto" className="logo-reverse" />
                             </div>
                             <div>
                                 <p className="mb-0 txet-gray-500">Connecting founders and marketers with battle-hardened mentors that
