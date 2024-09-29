@@ -1,7 +1,7 @@
-import img1 from '../assets/img/Customers/1.svg';
-import img2 from '../assets/img/Customers/2.svg';
-import img3 from '../assets/img/Customers/3.svg';
-import img4 from '../assets/img/Customers/4.svg'
+import img1 from '../../assets/img/Customers/1.svg';
+import img2 from '../../assets/img/Customers/2.svg';
+import img3 from '../../assets/img/Customers/3.svg';
+import img4 from '../../assets/img/Customers/4.svg'
 const ComponentCustomers=()=>{
     return(
         <>
