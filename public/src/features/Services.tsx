@@ -6,9 +6,12 @@ import TestimonialsComponent from "./Components/TestimonialsComponent";
 import HeaderComponent from "./Components/HeaderComponent";
 
 const Services = () => {
+  const title='Services';
+  const subTitle='We provide a wide range of Services';
+  const description = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.';
     return (
       <>
-        <HeaderComponent title={'Services'} subTitle={'We provide a wide range of Services'} description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.'}/>
+        <HeaderComponent title={title} subTitle={subTitle} description={description}/>
         <ServicesComponent/>
         <CustomersComponent/>
         <TestimonialsComponent/>

@@ -75,8 +75,14 @@ const PortfolioComponent = () => {
 </div>
 
 
+                    {/* <article className="text-center">
+                        <div className="btn_theme mt-2 mb-5 d-inline-flex w-auto justify-content-center align-items-center text-center">EXPLORE MORE</div>
+                    </article> */}
                     <article className="text-center">
-                        <div className="btn_theme">EXPLORE MORE</div>
+                    <button className="btn_theme mt-2 mb-5 d-inline-flex w-auto justify-content-center align-items-center text-center">
+                    <span className="d-block">Explore</span>&nbsp;
+                    <span className="d-block">More</span>
+                  </button>
                     </article>
                 </div>
             </section>

@@ -3,10 +3,12 @@ import HeaderComponent from "./Components/HeaderComponent";
 import Footer from "./Footer/footer";
 
 const About = () => {
+  const title = 'About';
+  const subTitle ='Welcome to MedSpekto';
+  const description ='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.';
   return (
     <>
-     
-      <HeaderComponent title={'About'} subTitle={'Welcome to MedSpekto'} description={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.'}/>
+      <HeaderComponent title={title} subTitle={subTitle} description={description}/>
       <div className="card-section container">
         <div className="row">
           <div className="col-md-4">
