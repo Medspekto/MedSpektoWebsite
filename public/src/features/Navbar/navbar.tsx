@@ -1,8 +1,7 @@
 import { useLocation } from 'react-router-dom';
-import logo from '../../assets/img/logo1.png'
+import logo from '../../assets/img/MedSpekto_logo.png'
 const Navbar = () => {
     const location = useLocation();
-  
     return (
         <>
             <nav className="navbar navbar-expand-lg py-4 main_nav">

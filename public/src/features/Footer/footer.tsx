@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo1.png'
+import logo from '../../assets/img/MedSpekto_logo.png'
 const Footer=()=>{
     return(
         <>
