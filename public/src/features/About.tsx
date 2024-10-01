@@ -1,25 +1,12 @@
 import AdvtCardComponent from "./Components/advtCardComponent";
+import HeaderComponent from "./Components/HeaderComponent";
 import Footer from "./Footer/footer";
-import Navbar from "./Navbar/navbar";
 
 const About = () => {
   return (
     <>
-      <div className="header_section">
-        <div className="container pb-5">
-          <Navbar />
-          <div className="row">
-            <div className="col-md-12 text-center header_content">
-              <h1 className="display-4">About</h1>
-              <p className="lead">Welcome to MedSpekto</p>
-              <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+     
+      <HeaderComponent title={'About'} subTitle={'Welcome to MedSpekto'} description={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue.'}/>
       <div className="card-section container">
         <div className="row">
           <div className="col-md-4">

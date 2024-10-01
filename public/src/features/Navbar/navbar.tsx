@@ -13,14 +13,14 @@ const Navbar = () => {
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll"
-                        aria-controls="navbarScroll"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarScroll" style={{ height: '100px' }}>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{ height: '100px' }}>
                         <ul className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
                             <li className="nav-item">
                                 <a className={`nav-link active ${location.pathname === '/' ? 'highlight':''}`}  aria-current="page" href="/" >Home</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
                                 <a className={`nav-link ${location.pathname === '/services' ? 'highlight':''}`} href="services" >Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true" >Contact</a>
+                                <a className={`nav-link  ${location.pathname === '/contact' ? 'highlight':''}`} href='contact'  >Contact</a>
                             </li>
                            
                             <li className='nav-item'>

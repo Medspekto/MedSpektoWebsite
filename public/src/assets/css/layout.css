@@ -82,7 +82,7 @@ h4 {
     position: relative;
 }
 .overlay {
-  background-color: #6878d6;
+  background-color: #ec3e5e;
   position: absolute;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@ h4 {
 }
 
 .btn-primary {
-  background-color: #5865f2;
+  background-color: #ec3e5e;
   border: none;
   padding: 12px 24px;
   font-size: 1rem;
@@ -180,7 +180,7 @@ h4 {
 
 .card ul li::before {
   content: "•";
-  color: #6060e0;
+  color: #ec3e5e;
   margin-right: 5px;
 }
 
@@ -311,9 +311,92 @@ body {
 
 .nav-link.highlight {
   font-weight: bold;
-  color: #6878d6 !important; /* Higher specificity */
+  color: #ec3e5e !important; /* Higher specificity */
 }
 
+.contact-section {
+  padding: 50px;
+  background-color: #f5f7ff;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.map {
+  border: 1px solid #ccc;
+}
+
+.contact-info {
+  padding-left: 30px;
+}
+
+.contact-info h4 {
+  font-weight: bold;
+}
+
+.contact-info a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info .phone-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ec3e5e;
+}
+
+
+
+.contact-section {
+  padding: 50px;
+  background-color: #f5f7ff;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.map {
+  border: 1px solid #ccc;
+}
+
+.contact-info {
+  padding-left: 30px;
+}
+
+.contact-info h4 {
+  font-weight: bold;
+}
+
+.contact-info a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info .phone-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ec3e5e;
+}
 
 
 
