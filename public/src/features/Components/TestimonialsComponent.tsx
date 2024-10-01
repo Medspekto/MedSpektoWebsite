@@ -1,4 +1,4 @@
-const ComponentTestimonials=()=>{
+const TestimonialsComponent=()=>{
     return(
         <>
          <section className="block_3 text-center">
@@ -15,4 +15,4 @@ const ComponentTestimonials=()=>{
         </>
     )
 }
-export default ComponentTestimonials
+export default TestimonialsComponent

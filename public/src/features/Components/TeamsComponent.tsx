@@ -1,4 +1,4 @@
-const ComponentTeams=()=>{
+const TeamsComponent=()=>{
     return(
         <>
          <section className="block_4 bg-white">
@@ -33,4 +33,4 @@ const ComponentTeams=()=>{
         </>
     )
 }
-export default ComponentTeams
+export default TeamsComponent

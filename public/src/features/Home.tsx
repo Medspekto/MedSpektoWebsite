@@ -1,11 +1,11 @@
-import ComponentCustomers from "./Components/ComponentCustomers";
+import CustomersComponent from "./Components/CustomersComponent";
 import Navbar from "./Navbar/navbar";
-import ComponentServices from "./Components/ComponentServices";
-import ComponentPortfolio from "./Components/ComponentPortfolio";
-import ComponentTeams from "./Components/ComponentTeams";
-import ComponentTestimonials from "./Components/ComponentTestimonials";
+import ServicesComponent from "./Components/ServicesComponent";
+import PortfolioComponent from "./Components/PortfolioComponent";
+import TeamsComponent from "./Components/TeamsComponent";
+import TestimonialsComponent from "./Components/TestimonialsComponent";
 import Footer from "./Footer/footer";
-import ComponentAdvtCard from "./Components/ComponentadvtCard";
+import AdvtCardComponent from "./Components/advtCardComponent";
 import { useLocation } from "react-router-dom";
 
 const Home = () => {
@@ -36,12 +36,12 @@ const Home = () => {
                     </aside>
                 </div>
             </div>
-            <ComponentServices/>
-            <ComponentPortfolio/>
-            <ComponentCustomers/>
-            <ComponentTestimonials/>
-            <ComponentTeams/>
-            <ComponentAdvtCard/>
+            <ServicesComponent/>
+            <PortfolioComponent/>
+            <CustomersComponent/>
+            <TestimonialsComponent/>
+            <TeamsComponent/>
+            <AdvtCardComponent/>
             <Footer/>
         </>
     );

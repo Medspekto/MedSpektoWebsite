@@ -1,4 +1,4 @@
-const ComponentAdvtCard=()=>{
+const AdvtCardComponent=()=>{
     return(
         <>
           <section className="block_4">
@@ -26,4 +26,4 @@ const ComponentAdvtCard=()=>{
         </>
     )
 }
-export default ComponentAdvtCard;
+export default AdvtCardComponent;

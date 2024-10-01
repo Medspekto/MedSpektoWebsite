@@ -1,9 +1,9 @@
-import ComponentAdvtCard from "./Components/ComponentadvtCard";
-import ComponentCustomers from "./Components/ComponentCustomers";
+import AdvtCardComponent from "./Components/advtCardComponent";
+import CustomersComponent from "./Components/CustomersComponent";
 import Footer from "./Footer/footer";
 import Navbar from "./Navbar/navbar"
-import ComponentServices from "./Components/ComponentServices";
-import ComponentTestimonials from "./Components/ComponentTestimonials";
+import ServicesComponent from "./Components/ServicesComponent";
+import TestimonialsComponent from "./Components/TestimonialsComponent";
 
 const Services = () => {
     return (
@@ -23,10 +23,10 @@ const Services = () => {
               </div>
             </div>
         </div>
-        <ComponentServices/>
-        <ComponentCustomers/>
-        <ComponentTestimonials/>
-        <ComponentAdvtCard/>
+        <ServicesComponent/>
+        <CustomersComponent/>
+        <TestimonialsComponent/>
+        <AdvtCardComponent/>
         <Footer/>
         
       </>

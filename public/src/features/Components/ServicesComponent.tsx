@@ -1,31 +1,31 @@
 import { IconDeviceMobile, IconHospital, IconReportAnalytics, IconReportSearch, IconVaccineBottle } from "@tabler/icons-react";
 
-const ComponentServices = () => {
+const ServicesComponent = () => {
 
     const FeatureJSON=[
         {
             label:'Custom Healthcare Software Development',
-            icon:<IconHospital/>,
+            icon:<IconHospital stroke={2} style={{ width: '50px', height: '50px' }} />,
             description:'Tailored software solutions that meet the unique needs of healthcare providers.'
         },
         {
             label:'Telemedicine Solutions',
-            icon:<IconVaccineBottle/>,
+            icon:<IconVaccineBottle stroke={2} style={{ width: '50px', height: '50px' }}/>,
             description:'Secure and user-friendly platforms for virtual consultations, improving access to care.'
         },
         {
             label:'Electronic Health Records (EHR)',
-            icon:<IconReportSearch/>,
+            icon:<IconReportSearch stroke={2} style={{ width: '50px', height: '50px' }}/>,
             description:'Integrated EHR systems that enhance patient data management and interoperability.'
         },
         {
             label:'Mobile Health Applications',
-            icon:<IconDeviceMobile/>,
+            icon:<IconDeviceMobile stroke={2} style={{ width: '50px', height: '50px' }}/>,
             description:'Engaging mobile apps for patients and providers that promote health management on-the-go.'
         },
         {
             label:'Healthcare Data Analytics',
-            icon:<IconReportAnalytics/>,
+            icon:<IconReportAnalytics stroke={2} style={{ width: '50px', height: '50px' }}/>,
             description:'Advanced analytics tools to drive insights and improve decision-making.'
         }
     ]
@@ -61,4 +61,4 @@ const ComponentServices = () => {
     );
 }
 
-export default ComponentServices;
+export default ServicesComponent;

@@ -1,4 +1,4 @@
-import ComponentAdvtCard from "./Components/ComponentadvtCard";
+import AdvtCardComponent from "./Components/advtCardComponent";
 import Footer from "./Footer/footer";
 import Navbar from "./Navbar/navbar";
 
@@ -100,7 +100,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <ComponentAdvtCard/>
+      <AdvtCardComponent/>
       <Footer/>
       
     </>
