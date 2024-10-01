@@ -35,28 +35,23 @@ const ServicesComponent = () => {
                 <div className="container">
                     <article className="text-center">
                         <div className="display-2">How can we help you?</div>
-                        {/* <p className="centerTxt">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue.
-                        </p> */}
                     </article>
-                    <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                           {FeatureJSON?.map((x,index)=>(
-                             <div className="col" key={index} >
-                             <div className="feature">
-                                 <div className="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                                     {x.icon}
-                                 </div>
-                                 <h3>{x.label}</h3>
-                                 <p>
-                                 {x.description}
-                                 </p>
-                             </div>
-                         </div>
-                           ))}
-                          
+                    <div className="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        {FeatureJSON.map((x, index) => (
+                            <div className="col d-flex align-items-stretch" key={index}>
+                                <div className="feature card h-100">
+                                    <div className="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
+                                        {x.icon}
+                                    </div>
+                                    <h3>{x.label}</h3>
+                                    <p>{x.description}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
+
         </>
     );
 }
