@@ -309,5 +309,12 @@ body {
   }
 }
 
+.nav-link.highlight {
+  font-weight: bold;
+  color: #6878d6 !important; /* Higher specificity */
+}
+
+
+
 
 
