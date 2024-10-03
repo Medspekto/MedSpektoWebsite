@@ -315,88 +315,94 @@ body {
 }
 
 .contact-section {
-  padding: 50px;
-  background-color: #f5f7ff;
+  padding: 50px 0;
 }
 
-.contact-section h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  text-align: center;
+.containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.form-control {
-  margin-bottom: 15px;
+.form-wrapper {
+  width: 45%;
 }
 
-.map {
-  border: 1px solid #ccc;
-}
-
-.contact-info {
-  padding-left: 30px;
-}
-
-.contact-info h4 {
-  font-weight: bold;
-}
-
-.contact-info a {
-  display: block;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-.contact-info .phone-number {
+h2 {
   font-size: 24px;
-  font-weight: bold;
-  color: #ec3e5e;
-}
-
-
-
-.contact-section {
-  padding: 50px;
-  background-color: #f5f7ff;
-}
-
-.contact-section h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.form-control {
-  margin-bottom: 15px;
-}
-
-.map {
-  border: 1px solid #ccc;
-}
-
-.contact-info {
-  padding-left: 30px;
-}
-
-.contact-info h4 {
+  margin-bottom: 20px;
+  color: #2c3e50;
   font-weight: bold;
 }
 
-.contact-info a {
-  display: block;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: #333;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-info .phone-number {
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 15px;
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4c51bf;
+}
+
+.contact-details {
+  width: 45%;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-info p i {
+  margin-right: 10px;
+  color: #5a67d8;
+}
+
+.toll-free {
   font-size: 24px;
+  color: #4c51bf;
   font-weight: bold;
-  color: #ec3e5e;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .form-wrapper, .contact-details {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
 
 
 
