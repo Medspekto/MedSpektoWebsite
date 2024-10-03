@@ -35,9 +35,9 @@ const Navbar = () => {
                                 <a className={`nav-link  ${location.pathname === '/contact' ? 'highlight':''}`} href='contact'  >Contact</a>
                             </li>
                            
-                            <li className='nav-item'>
+                            {/* <li className='nav-item'>
                                 <a className="btn_Contact d-inline-flex w-auto nav-link active" aria-current="page" >Request Quote</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     
