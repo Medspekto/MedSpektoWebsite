@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg py-4 main_nav">
                 <div className="container-fluid g-0">
-                    <a className="navbar-brand pt-4" href="#" style={{ marginLeft: '-14px' }}>
+                    <a className="navbar-brand pt-4" href="/" style={{ marginLeft: '-14px' }}>
                         <img src={logo} style={{ width: '259px' }} />
                     </a>
                     <button

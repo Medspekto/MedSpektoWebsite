@@ -190,22 +190,14 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
                             </div>
 
                     </div>
-                    <div className="map-wrapper">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122134.4559194718!2d81.66693388906245!3d16.93999811689253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a38220ddc40f%3A0xf80627888f6687c3!2sRajahmundry!5e0!3m2!1sen!2sin!4v1727931466599!5m2!1sen!2sin"
-                            width="100%"
-                            height="300"
-                            style={{ border: 0 }}
-                            loading="lazy"
-                        ></iframe>
-                    </div>
+                  
                     <div className="contact-details">
                         <h2>Get In Touch</h2>
                         <div className="contact-info">
                             <h4><strong>Reach Us</strong></h4>
                             <p><IconMap2/>&nbsp;123/B, Route 66, Downtown, Washington, DC 20004, US</p>
                             <p><IconMail/>&nbsp;info@example.com</p>
-                            <p><IconPhone/> +001 987-654-3210</p>
+                            <p><IconPhone/> +1 987-654-3210</p>
                             <p style={{fontWeight:'bold'}}>Call us Toll Free</p>
                             <p className="toll-free">1-800-1234-567</p>
                         </div>
