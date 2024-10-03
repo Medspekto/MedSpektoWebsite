@@ -1,5 +1,6 @@
 import securedApi from '../securedApi';
 const CREATE_ENQUIRY='/createEnquiry';
+const GET_ORGANIZATION='/Organization';
 export const EnquiryApiHandler = securedApi.injectEndpoints({
     endpoints: (builder) => ({
         CreateEnquiry: builder.mutation({
@@ -9,8 +10,12 @@ export const EnquiryApiHandler = securedApi.injectEndpoints({
               body: addLogin,
             }),
           }),
+          GetOrganization:builder.query({
+            query:()=>
+                GET_ORGANIZATION
+          })
          
     }),
   })
   
-  export const { useCreateEnquiryMutation } = EnquiryApiHandler;
+  export const { useCreateEnquiryMutation, useGetOrganizationQuery} = EnquiryApiHandler;

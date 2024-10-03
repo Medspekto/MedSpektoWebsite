@@ -63,7 +63,8 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
             const isvalidform={
                 ...formData,
             }
-            onSubmit(isvalidform)
+            onSubmit(isvalidform);
+           
         }
     }
 
