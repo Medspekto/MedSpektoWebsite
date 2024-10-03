@@ -8,6 +8,11 @@ const Contact=()=>{
     const description = '';
     const handleSubmit=(formData:ContactForm)=>{
         console.log(formData)
+        const obj={
+            "name":formData?.name,
+            "email":formData?.email,
+            "message":formData?.message
+        }
     }
     return(
         <>
