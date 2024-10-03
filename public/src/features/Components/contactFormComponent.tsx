@@ -21,6 +21,7 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
     const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = event.target;
         setFormData({ ...formData, [name]: value });
+        validateForm();
     };
 
    
@@ -184,8 +185,10 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
                             {errors.email && <span style={{ color: 'red' }}>{errors.email}</span>}
                             <textarea placeholder="Your message" required name="message" value={formData.message} onChange={handleChange} />
                             {errors.message && <span style={{ color: 'red' }}>{errors.message}</span>}
-
+                            <div>
                             <button  onClick={handleSubmit}>Submit</button>
+                            </div>
+
                     </div>
                     <div className="map-wrapper">
                         <iframe
