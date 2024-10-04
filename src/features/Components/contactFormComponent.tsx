@@ -128,7 +128,7 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
 
                 button {
                     padding: 15px;
-                    background-color: #4c51bf;
+                    background-color: #ec3e5e;
                     color: #fff;
                     border: none;
                     cursor: pointer;
@@ -138,7 +138,7 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
                 }
 
                 button:hover {
-                    background-color: #5a67d8;
+                    background-color: #ec3e5e;
                 }
 
                 .map-wrapper iframe {
@@ -160,7 +160,7 @@ const ContactFormComponent:React.FC<ContactProps> = ({onSubmit}) => {
 
                 .toll-free {
                     font-weight: bold;
-                    color: #1a73e8;
+                    color: #ec3e5e;
                 }
 
                 @media screen and (max-width: 768px) {

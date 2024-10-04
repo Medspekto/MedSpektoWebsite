@@ -2,7 +2,6 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Home from './features/Home';
 import Services from './features/Services';
 import About from './features/About';
-import RequestQuote from './features/requestQuote';
 import Contact from './features/Contact';
 
 const App = ()=>{
@@ -13,7 +12,6 @@ const App = ()=>{
         <Route index element={<Home/>}/>
         <Route path='services' element={<Services/>}/>
         <Route path='about' element={<About/>}/>
-        <Route path='requestQuote' element={<RequestQuote/>}/>
         <Route path='contact' element={<Contact/>}/>
       </Routes>
     </Router>
