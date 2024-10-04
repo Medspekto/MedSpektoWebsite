@@ -3,10 +3,10 @@ const CREATE_ENQUIRY='/createEnquiry';
 export const EnquiryApiHandler = securedApi.injectEndpoints({
     endpoints: (builder) => ({
         CreateEnquiry: builder.mutation({
-            query: (addLogin) => ({
+            query: (createEnquiry) => ({
               url: CREATE_ENQUIRY, 
               method: 'POST',
-              body: addLogin,
+              body: createEnquiry,
             }),
           }),
     }),
